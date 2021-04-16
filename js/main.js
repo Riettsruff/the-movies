@@ -1,6 +1,6 @@
 class TheMovieDB {
   static API_URL = "https://api.themoviedb.org/3";
-  static API_KEY = "04c35731a5ee918f014970082a0088b1";
+  static API_KEY = "YOUR API KEY HERE";
 
   static async getNowPlaying(params) {
     let path = `${TheMovieDB.API_URL}/movie/now_playing?api_key=${TheMovieDB.API_KEY}`;
